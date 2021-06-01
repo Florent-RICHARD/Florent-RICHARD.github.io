@@ -1,0 +1,67 @@
+html{
+    font-family: sans-serif;
+}
+
+header.header{
+    background-color:  black;;
+}
+body{
+    margin: 0 auto;
+}
+
+.landing-page{
+    height: 350px;
+    background-color: rgb(236, 233, 233);
+}
+
+section.top-page h1.title{
+    margin-block-start: 0;
+    margin-bottom: 30px; /*Permet un espacement entre cet item et l'item suivant*/
+    text-align: center; /* Aligne le texte au milieu*/
+    font-size: 70px; /* Taille de la police*/
+    line-height: 1;
+    font-weight: lighter; /*Epaisseur de la police*/
+}
+
+section.top-page h2.small-title{
+    line-height: 0em;
+    text-align: center; /* Aligne le texte au milieu*/
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+section.top-page p.description{
+    margin-left: 100px;
+    margin-right: 50px;
+    font-size: 23px;
+}
+
+nav.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 100px;
+    flex-direction: center;
+    height: 50px;
+    width: 300px; /* taille de la boite*/
+    list-style: none;
+}
+
+nav.nav li a{
+    color: white;
+    text-decoration: none;/* retire la décoration d'un texte*/
+}
+
+.btn{
+    margin-left: 100px;
+    background-color: #ff6a19;
+    border: none;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none; /* retire la décoration d'un texte*/
+    display:  inline-block;
+    font-size: 1rem;
+    margin-top: 4px 2px;
+    border-radius: 1rem;
+}

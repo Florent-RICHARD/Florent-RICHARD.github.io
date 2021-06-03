@@ -55,7 +55,6 @@ nav.nav li a{
 }
 
 .github{
-    margin-left: 100px;
     display: flex;
     align-items: center;
     position: absolute;
@@ -89,9 +88,7 @@ nav.nav li a{
     align-items: center;
     position: absolute;
     bottom: 0;
-    margin-left: 100px;
     text-align: left;
-
 }
 
 .lien-compte-rendu a{
@@ -114,4 +111,20 @@ nav.nav li a{
 .description-application p{
     font-size: 25px;
     font-weight: bolder;
+}
+
+.telechargement{
+    margin-left: 1000px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    margin-block-end: 20px;
+}
+
+.appli{
+    font-weight: lighter;
+    text-decoration: none;
+    color: black;
 }
